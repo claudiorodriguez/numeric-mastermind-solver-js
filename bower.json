@@ -1,0 +1,29 @@
+{
+  "name": "numeric-mastermind-solver-js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/fansworld-claudio/numeric-mastermind-solver-js",
+  "authors": [
+    "Claudio Rodriguez <cjrodr@yahoo.com>"
+  ],
+  "description": "Numeric mastermind step-by-step guesser and solver",
+  "main": "mastermind.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "mastermind",
+    "solver"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "benchmark",
+    "Gruntfile.js"
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Numeric Mastermind Solver JS</title>
+  <script type="text/javascript" src="../mastermind.min.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    var places = parseInt(prompt('How many places? (1-n)'));
+    var numbers = parseInt(prompt('What is the max number? (starts from 1, 2-9)'));
+    var mm = new Mastermind({places: places, numbers: numbers});
+    var guess, tries = 0, greenPins, bluePins, tryMessage;
+
+    while (true) {
+      tries++;
+      guess = mm.getGuess();
+
+      tryMessage = 'Try #' + tries + ': ' + guess;
+      if (mm.status().possibilities) {
+        tryMessage += '\nThere are ' + mm.status().possibilities + ' possible combinations.';
+        if (mm.status().possibilities > 1) {
+          tryMessage += '\nSuccess probability: ' + (mm.status().successProbability * 100) + '%';
+        }
+      }
+
+      alert(tryMessage);
+      greenPins = parseInt(prompt('How many correct digits in the correct place?'));
+      bluePins = parseInt(prompt('How many correct digits in the wrong place?'));
+
+      mm.feedPins(greenPins, bluePins);
+
+      if (mm.status().state === 'solved' || mm.status().state === 'failed') {
+        alert('State: ' + mm.status().state);
+        break;
+      }
+    }
+  </script>
+</body>
+</html>

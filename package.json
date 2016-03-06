@@ -1,0 +1,35 @@
+{
+  "name": "numeric-mastermind-solver-js",
+  "version": "0.0.1",
+  "description": "Numeric mastermind step-by-step guesser and solver",
+  "main": "mastermind.js",
+  "files": [
+    "mastermind.js"
+  ],
+  "scripts": {
+    "build": "grunt build",
+    "benchmark": "grunt benchmark",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "~1.5.0",
+    "grunt": "~0.4.1",
+    "grunt-benchmark": "~0.2.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-mocha-test": "~0.2.2",
+    "grunt-npm-install": "~0.1.0",
+    "load-grunt-tasks": "~0.6.0",
+    "mocha": "~1.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fansworld-claudio/numeric-mastermind-solver-js.git"
+  },
+  "keywords": [
+    "mastermind",
+    "solver"
+  ],
+  "author": "Claudio Rodriguez <cjrodr@yahoo.com>",
+  "license": "MIT"
+}
