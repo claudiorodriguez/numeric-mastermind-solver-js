@@ -1,6 +1,6 @@
 {
   "name": "numeric-mastermind-solver-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Numeric mastermind step-by-step guesser and solver",
   "main": "mastermind.js",
   "files": [
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fansworld-claudio/numeric-mastermind-solver-js.git"
+    "url": "https://github.com/claudiorodriguez/numeric-mastermind-solver-js.git"
   },
   "keywords": [
     "mastermind",

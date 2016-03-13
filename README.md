@@ -1,6 +1,6 @@
 # numeric-mastermind-solver-js
 
-[![Build Status](https://secure.travis-ci.org/fansworld-claudio/numeric-mastermind-solver-js.png)](http://travis-ci.org/fansworld-claudio/numeric-mastermind-solver-js)
+[![Build Status](https://secure.travis-ci.org/claudiorodriguez/numeric-mastermind-solver-js.png)](http://travis-ci.org/claudiorodriguez/numeric-mastermind-solver-js)
 
 A better implementation for a step-by-step numeric mastermind solver than what I've found around
 
@@ -56,7 +56,7 @@ for (x = 0; x < 10; x++) {
 
 **Browser**
 
-See [examples/browser.html](https://github.com/fansworld-claudio/numeric-mastermind-solver-js/blob/master/examples/browser.html)
+See [examples/browser.html](https://github.com/claudiorodriguez/numeric-mastermind-solver-js/blob/master/examples/browser.html)
 
 ## Building and Testing
 
@@ -85,4 +85,4 @@ If you wish to submit a pull request please update and/or create new tests for a
 
 ## License
 
-MIT - see [LICENSE](https://github.com/fansworld-claudio/numeric-mastermind-solver-js/blob/master/LICENSE)
+MIT - see [LICENSE](https://github.com/claudiorodriguez/numeric-mastermind-solver-js/blob/master/LICENSE)
